@@ -1,0 +1,28 @@
+quizzes:
+    -
+        description: 'What is Flutter?'
+        id: flutter-basics
+        title: Basics
+    -
+        description: 'Get to know common Material widgets'
+        id: flutter-material
+        title: 'Material Widgets'
+    -
+        description: 'Single widget layouts'
+        id: flutter-containers
+        title: Containers
+    -
+        description: 'Flexible rows & columns'
+        id: flutter-flex
+        title: 'Flex Layout'
+    -
+        description: 'Detect user interaction'
+        id: flutter-gestures
+        title: Gestures
+    -
+        description: 'Scroll multiple widgets '
+        id: flutter-scroll
+        title: Scroll
+id: flutter
+img: flutter.png
+title: Flutter

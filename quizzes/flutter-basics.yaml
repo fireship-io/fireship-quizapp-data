@@ -1,0 +1,59 @@
+description: 'Flutter is a framework for building high-quality cross platform apps in record time.'
+video: 'https://youtu.be/7sJZi0grFR4'
+questions:
+    -
+        text: 'The UI in Flutter is abstracted into a tree of...'
+        options:
+            -
+                detail: 'No, that is a more common term in web frameworks like React and Angular '
+                correct: false
+                value: Components
+            -
+                correct: true
+                value: Widgets
+                detail: 'Everything is a Widget! Everything is a Widget! Everything is a...'
+            -
+                detail: 'No, that''s a term you are more likely to be used in HTML'
+                correct: false
+                value: Divs
+    -
+        text: 'Developers use which programming language to build Flutter apps?'
+        options:
+            -
+                correct: false
+                value: TypeScript
+            -
+                correct: true
+                value: Dart
+                detail: 'Yes, Dart delivers excellent performance and a great developer-experience. '
+            -
+                correct: false
+                value: Fortran
+                detail: 'C''mon... I think you know better!'
+    -
+        text: 'What is the name of the function that kicks off your code in every Flutter/Dart app?'
+        options:
+            -
+                correct: false
+                value: init()
+            -
+                correct: true
+                value: main()
+            -
+                correct: false
+                value: start()
+    -
+        text: 'Which function is called to re-render the UI of a StatefulWidget?'
+        options:
+            -
+                correct: true
+                value: setState
+            -
+                correct: false
+                value: detectChanges
+            -
+                correct: false
+                value: render
+topic: flutter
+id: flutter-basics
+title: Flutter

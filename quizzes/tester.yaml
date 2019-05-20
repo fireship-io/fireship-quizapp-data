@@ -1,0 +1,7 @@
+title: 'Angular Basics'
+questions:
+    - {text: 'What is the proper way to refer to the Angular 2+ framework?', options: [{detail: 'Nope, that''s how you should refer to the old Angular version1 framework', correct: false, value: AngularJS}, {correct: true, value: Angular, detail: 'Nailed It!'}, {correct: false, value: 'Angular Two', detail: 'Nope, Angular is currently on version 8, so that doesn''t really work.'}]}
+    - {text: 'By default, Angular ships with which two key JavaScript libraries?', options: [{correct: true, value: 'RxJS and TypeScript'}, {correct: false, value: 'Mobx and Dart'}, {correct: false, value: 'Redux and Flow'}]}
+description: 'Angular is a platform for building large-scale JavaScript applications'
+topic: angular
+id: angular-basics

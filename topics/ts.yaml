@@ -1,0 +1,8 @@
+title: TypeScript
+quizzes:
+    -
+        description: 'What is strongly-typed JavaScript?'
+        id: ts-basics
+        title: Basics
+id: ts
+img: ts.png

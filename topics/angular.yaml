@@ -1,0 +1,12 @@
+quizzes:
+    -
+        title: Basics
+        description: 'What is Angular?'
+        id: angular-basics
+    -
+        title: Templates
+        description: 'Angular''s template syntax'
+        id: angular-templates
+id: angular
+img: angular.png
+title: Angular

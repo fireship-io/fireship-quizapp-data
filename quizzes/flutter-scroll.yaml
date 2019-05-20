@@ -1,0 +1,47 @@
+title: Flutter Scroll
+id: flutter-scroll
+topic: flutter
+video: https://fireship.io/courses/flutter-firebase/widgets-scroll-list/
+description: Scrollable widgets like ListView and GridView allow users to pan horizontally or vertically across the screen.
+questions:
+  - text: Which widget does NOT scroll?
+    options:
+      - correct: false
+        value: GridView
+        detail: Wrong answer pal!
+      - correct: false
+        value: ListView
+        detail: Try again
+      - correct: true
+        value: Column
+        detail: Yes, if you want a Column to scroll put it inside a ListView. 
+  - text: The children argument of a ListView must be a function
+    options:
+      - correct: false
+        value: 'true'
+        detail: Nope, functions are used for builder arguments. 
+      - correct: true
+        value: 'false'
+        detail: Good! The children argument is a List<Widget>
+  - text: What would be useful if you wanted to scroll directly to an index on a button tap?
+    options:
+      - correct: false
+        value: ScrollPhysics
+        detail: No, but this can be used to change the motion physics of the widget. 
+      - correct: false
+        value: ScreenController
+        detail: Not quite. 
+      - correct: true
+        value: ScrollController
+        detail: Yes, the controller allows you to manually change the scroll position. 
+  - text: What makes ListView.builder() special?
+    options:
+      - correct: false
+        value: Builds with a Stream
+        detail: Ummm, no. 
+      - correct: true
+        value: Builds on the Fly
+        detail: Correct, it determines how to build the items based on the current scroll index. 
+      - correct: false
+        value: Can scroll horizontally
+        detail: Any ListView can scroll horizontally, so that is not very special here. 

@@ -1,0 +1,31 @@
+description: 'Cloud Firestore is a scalable NoSQL cloud database to store and sync data for client and server-side development.'
+topic: firestore
+id: firestore-basics
+title: 'Cloud Firestore Basics'
+questions:
+    -
+        text: 'NoSQL databases require a schema'
+        options:
+            -
+                correct: false
+                value: 'true'
+                detail: 'No, they have a flexible schema, commonly called schema-less'
+            -
+                correct: true
+                value: 'false'
+                detail: 'Yes, no schema means rapid development, but you need to be careful about data modeling'
+    -
+        text: 'Document databases are organized into a hierarchy of ...'
+        options:
+            -
+                correct: false
+                value: 'Buckets and Files'
+                detail: 'That sounds more like cloud file storage'
+            -
+                correct: true
+                value: 'Collections and Documents'
+                detail: Bingo!
+            -
+                correct: false
+                value: 'Tables and Rows'
+                detail: 'Nope, you must be thinking of SQL'

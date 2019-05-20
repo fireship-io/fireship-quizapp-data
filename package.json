@@ -1,0 +1,17 @@
+{
+  "name": "@jeffd23/firequiz-questions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase-admin": "^7.3.0",
+    "fs-extra": "^8.0.0",
+    "yamljs": "^0.3.0"
+  }
+}

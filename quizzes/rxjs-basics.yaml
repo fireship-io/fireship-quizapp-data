@@ -1,0 +1,29 @@
+description: 'RxJS is a library for reactive programming using Observables, to make it easier to compose asynchronous or callback-based code'
+topic: rxjs
+id: rxjs-basics
+title: 'RxJS Basics'
+questions:
+    -
+        text: 'An Observable is pull-based?'
+        options:
+            -
+                correct: false
+                value: 'true'
+                detail: 'Wrong, interators or loops are pull-based, but Observables are push-based.'
+            -
+                correct: true
+                value: 'false'
+    -
+        text: 'Which method is called to attach a listener to an Observable?'
+        options:
+            -
+                correct: true
+                value: subscribe()
+            -
+                correct: false
+                value: listen()
+                detail: 'Not in RxJS, but that would work in RxDart.'
+            -
+                detail: 'Nope, that''s used for Promises'
+                correct: false
+                value: then()

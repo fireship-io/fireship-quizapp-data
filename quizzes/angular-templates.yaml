@@ -1,0 +1,41 @@
+description: 'Angular has it''s own custom templating syntax. '
+topic: angular
+id: angular-templates
+title: 'Angular Template Syntax'
+questions:
+    -
+        text: '`<div *ngIf="1 > 2">Hello</div>`   How will Angular render this as HTML?'
+        options:
+            -
+                correct: true
+                value: 'Nothing at all'
+                detail: 'Yes, Angular will completely remove this div from the DOM when the expression is falsey.'
+            -
+                correct: false
+                value: 'An empty div'
+                detail: 'Close, that''s not exactly correct...'
+            -
+                correct: false
+                value: '<div>Hello</div>'
+                detail: 'Nope, look at the expression inside of the *ngIf directive'
+    -
+        text: 'What does event binding look like?'
+        options:
+            -
+                correct: true
+                value: '<button (click)="handler">'
+            -
+                correct: false
+                value: ' <button v-on:click="handler">'
+            -
+                correct: false
+                value: '<button onClick={handler}>'
+    -
+        text: 'Which of these is a structural directive?'
+        options:
+            -
+                correct: false
+                value: ngClass
+            -
+                correct: true
+                value: '*ngFor'

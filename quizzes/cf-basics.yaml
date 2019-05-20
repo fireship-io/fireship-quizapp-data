@@ -1,0 +1,58 @@
+description: 'Cloud Functions allow you to run backend code with serverless event-driven infrastructure'
+topic: cf
+id: cf-basics
+title: 'Cloud Functions Basics'
+questions:
+    -
+        text: 'What is the most common programming language used in Firebase Cloud Functions?'
+        options:
+            -
+                correct: false
+                value: 'C#'
+            -
+                correct: false
+                value: Python
+            -
+                correct: true
+                value: 'JavaScript (Node)'
+    -
+        text: 'Serverless really means no servers are used.'
+        options:
+            -
+                correct: false
+                value: 'true'
+                detail: 'That would be physically impossible'
+            -
+                detail: 'Right! A server is running somewhere, but Google does are the scaling and config for you'
+                correct: true
+                value: 'false'
+    -
+        text: 'How much do Cloud Functions cost?'
+        options:
+            -
+                correct: true
+                value: 'Costs scale with usage'
+            -
+                correct: false
+                value: '$25/month per Function'
+    -
+        text: 'Cloud Functions are "stateless"'
+        options:
+            -
+                correct: true
+                value: 'true'
+            -
+                correct: false
+                value: 'false'
+    -
+        text: 'Which is NOT a support function type?'
+        options:
+            -
+                correct: true
+                value: HTTP
+            -
+                correct: false
+                value: Cron
+            -
+                correct: true
+                value: Admob

@@ -1,0 +1,8 @@
+quizzes:
+    -
+        description: 'Getting started with NoSQL'
+        id: firestore-basics
+        title: Basics
+id: firestore
+img: firestore.png
+title: 'Cloud Firestore'

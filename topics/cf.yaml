@@ -1,0 +1,12 @@
+title: 'Cloud Functions'
+quizzes:
+    -
+        description: 'What is Serverless?'
+        id: cf-basics
+        title: Basics
+    -
+        id: cf-triggers
+        title: Triggers
+        description: 'How do you invoke a function?'
+id: cf
+img: cloud-functions.png

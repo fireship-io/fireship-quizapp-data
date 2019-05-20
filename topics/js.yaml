@@ -1,0 +1,12 @@
+quizzes:
+    -
+        id: js-basics
+        title: Basics
+        description: 'What is JavaScript?'
+    -
+        description: 'var vs let vs const'
+        id: js-variables
+        title: Variables
+id: js
+img: js.png
+title: JavaScript

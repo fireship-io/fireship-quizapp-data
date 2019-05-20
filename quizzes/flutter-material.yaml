@@ -1,0 +1,62 @@
+description: 'Flutter provides a number of widgets that help you build apps that follow Material Design.'
+topic: flutter
+id: flutter-material
+title: 'Flutter Material Widgets'
+questions:
+    -
+        text: 'What is very first Widget you will include when using material? '
+        options:
+            -
+                correct: true
+                value: MaterialApp
+            -
+                correct: false
+                value: MaterialRoot
+            -
+                correct: false
+                value: MaterialDesign
+    -
+        text: 'Which is NOT a property of a Scaffold widget?'
+        options:
+            -
+                correct: false
+                value: appBar
+            -
+                correct: false
+                value: bottomNavigationBar
+            -
+                correct: true
+                value: loadingSpinner
+    -
+        text: 'Which Widget is used to handle routing and navigation?'
+        options:
+            -
+                correct: true
+                value: Navigator
+            -
+                correct: false
+                value: Router
+    -
+        text: 'Which widget is used to handle user interaction events?'
+        options:
+            -
+                correct: false
+                value: OnTouch
+            -
+                correct: false
+                value: TouchHandler
+            -
+                correct: true
+                value: GestureDetector
+    -
+        text: 'Which is NOT a type of Material button?'
+        options:
+            -
+                correct: false
+                value: FloatingActionButton
+            -
+                correct: true
+                value: RoundedButton
+            -
+                correct: false
+                value: FlatButton

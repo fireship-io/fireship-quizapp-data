@@ -1,0 +1,47 @@
+id: cf-triggers
+title: 'Cloud Functions Triggers'
+questions:
+    -
+        text: 'Which is NOT a valid Firestore trigger?'
+        options:
+            -
+                correct: true
+                value: onRead
+            -
+                correct: false
+                value: onCreate
+            -
+                correct: false
+                value: onUpdate
+    -
+        text: 'Which trigger provides the user''s authentication state?'
+        options:
+            -
+                correct: false
+                value: Firestore
+            -
+                correct: false
+                value: Pub/Sub
+            -
+                correct: true
+                value: Callable
+    -
+        text: 'Firebase rules are applied to database writes in a Cloud function?'
+        options:
+            -
+                correct: false
+                value: 'true'
+            -
+                correct: true
+                value: 'false'
+    -
+        text: 'Which trigger is more secure for passing messages between GCP services?'
+        options:
+            -
+                correct: true
+                value: Pub/Sub
+            -
+                correct: false
+                value: HTTP
+description: 'Triggers are events the determine when your backend code will be executed'
+topic: cf

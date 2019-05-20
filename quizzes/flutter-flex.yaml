@@ -1,0 +1,48 @@
+title: Flutter Flex Layout
+id: flutter-flex
+topic: flutter
+video: https://youtu.be/u0e2L5yoxFI
+description: The Flex widget, along with Column and Row, make it possible to layout and align complex layouts with ease.
+questions:
+  - text: The Row and Column widgets are an abstraction for which base widget. 
+    options:
+      - correct: false
+        value: Stack
+        detail: A stack is actually an entirely different layout strategy
+      - correct: false
+        value: Flexible
+        detail: Flexible is a Flutter widget, but not the correct answer here 
+      - correct: true
+        value: Flex
+        detail: Yes, you can use a Flex widget and set its flex axis to horizontal (Row) or vertical (Column)
+  - text: A Row will try to take up as much space as possible across the horizontal axis
+    options:
+      - correct: true
+        value: 'true'
+      - correct: false
+        value: 'false'
+  - text: Setting the crossAxisAlignment of a Row will cause its children to move
+    options:
+      - correct: true
+        value: vertically
+      - correct: false
+        value: horiozontally
+  - text: Let's imagine you have two buttons in a Column. Setting MainAxisAlignment.spaceBetween will cause the SECOND child to 
+    options:
+      - correct: false
+        value: Move to the bottom
+        detail: Yes, and the first child will sit at the top, maximizing the space between them. 
+      - correct: true
+        value: Move to the center of the Column
+        detail:  That sounds more like MainAxisAlignment.spaceAround
+      - correct: false
+        value: Not possible on Column
+        detail: Rows and Columns have all the same properties, the only difference is the axis. 
+  - text: When you set CrossAxisAligment.stretch on a Column it will
+    options:
+      - correct: true
+        value: expand itself AND children horizontally 
+      - correct: false
+        value:  expand itself horizontally
+      - correct: false
+        value:  expand its children horizontally

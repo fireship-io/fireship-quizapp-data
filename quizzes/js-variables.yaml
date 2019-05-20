@@ -1,0 +1,52 @@
+description: 'Let''s take a look at how variables work in JavaScript'
+topic: js
+id: js-variables
+title: 'JavaScript Variables'
+questions:
+    -
+        text: 'Which type of variable cannot be reassigned?'
+        options:
+            -
+                correct: true
+                value: const
+            -
+                correct: false
+                value: let
+            -
+                correct: false
+                value: var
+    -
+        text: 'JavaScript variable names are case-sensitive'
+        options:
+            -
+                correct: true
+                value: 'true'
+            -
+                correct: false
+                value: 'false'
+    -
+        text: 'which of the following contains INVALID primitive types?'
+        options:
+            -
+                correct: false
+                value: 'boolean, undefined'
+            -
+                correct: true
+                value: 'integer, float'
+            -
+                correct: false
+                value: 'string, number'
+    -
+        text: 'Which option contains VALID syntax (assuming strict mode)?'
+        options:
+            -
+                correct: false
+                value: 'number x = 23;'
+                detail: 'Nope, JS does not use type annotations'
+            -
+                correct: true
+                value: 'let x = 23;'
+            -
+                detail: 'This actually works, but not in strict mode.'
+                correct: false
+                value: 'x = 23;'

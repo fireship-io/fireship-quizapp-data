@@ -1,0 +1,44 @@
+title: Flutter Gestures
+id: flutter-gestures
+topic: flutter
+video: https://fireship.io/courses/flutter-firebase/widgets-gestures/
+description: Gestures make it possible for users to interact with your Flutter app. 
+questions:
+  - text: Which widget does NOT handle gestures? 
+    options:
+      - correct: true
+        value: Container
+        detail: Bingo! A container is just for presentation.
+      - correct: false
+        value: InkWell
+        detail: Nope, an InkWell can detect tap and press gestures. 
+      - correct: false
+        value: FlatButton
+        detail: What good would a button be if it did not detect a press gesture? 
+  - text: All button must define on onPressed handler
+    options:
+      - correct: true
+        value: 'true'
+        detail: Correct! 
+      - correct: false
+        value: 'false'
+        detail: try again
+  - text: An InkWell will always produces an ink splash animation when tapped
+    options:
+      - correct: false
+        value: 'true'
+        detail: Actually, it will only splash when inside another Material widget. 
+      - correct: true
+        value: 'false'
+        detail: You are smart! 
+  - text: Which widget is a low level building block that can handle all gestures?
+    options:
+      - correct: false
+        value: EventHandler
+        detail: Nope, that is not a thing. 
+      - correct: false
+        value: TapDetector
+        detail: Nope!
+      - correct: true
+        value: GestureDetector
+        detail: You are good! The GestureDetector gives you access to all sorts of fun events. 

@@ -1,0 +1,23 @@
+id: js-basics
+title: 'JavaScript Basics'
+questions:
+    -
+        text: 'JavaScript is a compiled language'
+        options:
+            -
+                correct: false
+                value: 'true'
+            -
+                correct: true
+                value: 'false'
+    -
+        text: 'JavaScript is a strongly-typed language'
+        options:
+            -
+                correct: false
+                value: 'true'
+            -
+                correct: true
+                value: 'false'
+description: 'JavaScript is a toy programming language commonly used to annoy people on websites 😉'
+topic: js

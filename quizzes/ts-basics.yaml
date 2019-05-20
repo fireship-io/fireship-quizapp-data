@@ -1,0 +1,27 @@
+description: 'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.'
+topic: ts
+id: ts-basics
+title: 'TypeScript Basics'
+questions:
+    -
+        text: 'Valid JS code is also valid TS code'
+        options:
+            -
+                detail: 'Yes, TS is a superset of JS'
+                correct: true
+                value: 'true'
+            -
+                correct: false
+                value: 'false'
+    -
+        text: 'Which of the following is valid TS code?'
+        options:
+            -
+                correct: true
+                value: 'const x: number = 23;'
+            -
+                correct: false
+                value: 'number x = 23;'
+            -
+                correct: false
+                value: 'const x<number> = 23;'

@@ -1,0 +1,35 @@
+title: Title
+id: topic-name
+img: foo.png
+video: youtube.com
+description: A quiz
+questions:
+  - text: First Question
+    options:
+      - correct: true
+        value: a
+        detail:  a
+      - correct: false
+        value: b
+        detail:  b
+      - correct: false
+        value: c
+        detail:  c
+  - text: Second Question
+    options:
+      - correct: true
+        value: a
+        detail:  a
+      - correct: false
+        value: b
+        detail:  b
+      - correct: false
+        value: c
+        detail:  c
+
+# # Topics
+
+# id: 
+# title:
+# image: 
+# topics: 

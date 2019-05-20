@@ -1,0 +1,47 @@
+description: 'Containers (and friends) are used to handle single widget alignment, positioning, and styling'
+topic: flutter
+id: flutter-containers
+title: 'Flutter Containers'
+questions:
+    -
+        text: 'Containers with no children try to be as big as possible unless the incoming constraints are unbounded'
+        options:
+            -
+                correct: true
+                value: 'true'
+            -
+                correct: false
+                value: 'false'
+    -
+        text: 'Containers with children size themselves to their children. '
+        options:
+            -
+                correct: true
+                value: 'true'
+            -
+                correct: false
+                value: 'false'
+    -
+        text: 'Where can you add shadows or color gradients to a container?'
+        options:
+            -
+                correct: false
+                value: Border
+            -
+                correct: false
+                value: StyleSheet
+            -
+                correct: true
+                value: BoxDecoration
+    -
+        text: 'If you need to add padding of 20 pixels to all sides, you should use which option?'
+        options:
+            -
+                correct: true
+                value: 'Padding(padding: EdgeInsets.all(20))'
+            -
+                correct: false
+                value: Padding(20)
+            -
+                correct: false
+                value: 'Container(padding: Padding(20))'

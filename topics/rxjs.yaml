@@ -1,0 +1,8 @@
+quizzes:
+    -
+        description: 'What is reactive programming?'
+        id: rxjs-basics
+        title: Basics
+id: rxjs
+img: rxjs.png
+title: RxJS

@@ -1,0 +1,46 @@
+questions:
+    -
+        text: 'Which method is used to increase a running count or value during a trace?'
+        options:
+            -
+                detail: 'Awesome work!'
+                correct: true
+                value: incrementMetric
+            -
+                correct: false
+                value: putAttribute
+                detail: 'Nope, that takes a string value to segment performance'
+            -
+                correct: false
+                value: putMetric
+                detail: 'Close, but no cigar!'
+    -
+        text: 'Firebase perf automatically tracks all HTTP requests?'
+        options:
+            -
+                correct: true
+                value: 'true'
+                detail: 'Correct, you can view this data on the network tab. '
+            -
+                correct: false
+                value: 'false'
+    -
+        text: 'Which option is a BAD piece of data to put into a trace?'
+        options:
+            -
+                detail: 'No, that''s a decent metric'
+                correct: false
+                value: 'count of clicks'
+            -
+                correct: true
+                value: 'email address'
+                detail: 'Good job, you should never use personal data that can identify a user during a trace.'
+            -
+                correct: false
+                value: 'error codes'
+                detail: 'Error reporting can be useful during a trace.'
+topic: firebase
+id: firebase-perf
+title: 'Firebase Performance Monitoring'
+description: 'Firebase Performance Monitoring is a service that helps you to gain insight into the performance characteristics of your iOS, Android, and web apps.'
+video: 'https://youtu.be/KYYjdWSrRjI'
