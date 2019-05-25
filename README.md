@@ -1,6 +1,6 @@
 # Quiz Questions for the Flutter Firebase Course
 
-This repo allows you to populate your database with quiz questions for [Flutter Firebase - The Full Course]()
+This repo allows you to populate your database with quiz questions for [Flutter Firebase - The Full Course](https://fireship.io/courses/flutter-firebase/)
 
 
 ## Instructions
