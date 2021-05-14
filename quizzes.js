@@ -26,19 +26,17 @@ const quizzes = [
     'ts-basics'
 ]
 
-
 const update = async(quizId) => {
 
     const json = yaml.load(`quizzes/${quizId}.yaml`);
 
-    console.log(JSON.stringify(json));
-
     const ref = db.collection('quizzes').doc(quizId);
 
-    await ref.set(json, { merge: true });
+    await ref
+        .set(json, { merge: true })
+        .catch(e => console.log(`'${quizId}' upload failed with error: ${e.details}`));
 
-    console.log('DONE');
-
+    console.log(`'${quizId}' is DONE`);
 }
 
 for (const quiz of quizzes) {
