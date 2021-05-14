@@ -19,19 +19,17 @@ const topics = [
     'ts'
 ]
 
+const update = async(topicId) => {
 
-const update = async(id) => {
+    const json = yaml.load(`topics/${topicId}.yaml`);
 
-    const json = yaml.load(`topics/${id}.yaml`);
+    const ref = db.collection('topics').doc(topicId);
 
-    console.log(JSON.stringify(json));
+    await ref
+        .set(json, { merge: true })
+        .catch(e => console.log(`'${topicId}' upload failed with error: ${e.details}`));
 
-    const ref = db.collection('topics').doc(id);
-
-    await ref.set(json, { merge: true });
-
-    console.log('DONE');
-
+    console.log(`'${topicId}' is DONE`);
 }
 
 for (const topic of topics) {
