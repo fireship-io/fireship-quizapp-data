@@ -1,32 +1,23 @@
-id: angular-basics
-title: 'Angular Basics'
-questions:
+id: users
+title: 'HACE users'
+users:
     -
-        text: 'What is the proper way to refer to the Angular 2+ framework?'
-        options:
+        classroom: 1
+        email: 'sandra@alumno.es'
+        name: 'Sandra Mundo'
+        phone: '64736483'
+        rol: 'student'
+        tasks:
             -
-                correct: false
-                value: AngularJS
-                detail: 'Nope, that''s how you should refer to the old Angular version1 framework'
-            -
-                correct: true
-                value: Angular
-                detail: 'Nailed It!'
-            -
-                detail: 'Nope, Angular is currently on version 8, so that doesn''t really work.'
-                correct: false
-                value: 'Angular Two'
-    -
-        text: 'By default, Angular ships with which two key JavaScript libraries?'
-        options:
-            -
-                correct: true
-                value: 'RxJS and TypeScript'
-            -
-                correct: false
-                value: 'Mobx and Dart'
-            -
-                correct: false
-                value: 'Redux and Flow'
-description: 'Angular is a platform for building large-scale JavaScript applications'
-topic: angular
+                done: false
+                dueDate: 12-26-2021
+                isMenu: false
+                name: 'task1'
+                notes: 'random note'
+                idPictogram: 1
+                pictogramSteps: [1, 2, 10]
+                textSteps: [
+                    '1. Ir al almacén',
+                    '2. Coger las cosas',
+                    '3. Decir al profesor que he terminado'
+                ]
