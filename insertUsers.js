@@ -10,7 +10,7 @@ const db = admin.firestore();
 
 const toFile = async(id) => {
 
-    const ref = db.collection('topics').doc(id);
+    const ref = db.collection('users').doc(id);
 
     const data = await ref.get().then(v => v.data());
 

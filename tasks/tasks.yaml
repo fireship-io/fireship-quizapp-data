@@ -1,0 +1,17 @@
+id: tasks
+title: "Task One"
+tasks:
+  - id: 1
+    done: false
+    dueDate: 12-26-2021
+    isMenu: false
+    name: "task1"
+    notes: "random note"
+    idPictogram: 1
+    pictogramSteps: [1, 2, 10]
+    textSteps:
+      [
+        "1. Ir al almacén",
+        "2. Coger las cosas",
+        "3. Decir al profesor que he terminado",
+      ]
