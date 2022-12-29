@@ -9,6 +9,7 @@ const db = admin.firestore();
 
 const quizzes = [
     'angular-basics',
+    'angular-templates',
     'flutter-scroll',
     'cf-basics',
     'cf-triggers',

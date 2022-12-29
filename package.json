@@ -10,8 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "firebase-admin": "^7.3.0",
-    "fs-extra": "^8.0.0",
+    "@grpc/grpc-js": "^1.8.0",
+    "firebase-admin": "^11.4.1",
+    "fs-extra": "^11.1.0",
     "yamljs": "^0.3.0"
   }
 }
